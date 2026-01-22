@@ -79,4 +79,4 @@ USER nonroot
 # Use `/app` as the working directory
 WORKDIR /app
 
-CMD ["streamlit", "run", "insel_web_app.py", "--browser.gatherUsageStats", "false"]
+CMD ["streamlit", "run", "pv_invest.py", "--browser.gatherUsageStats", "false"]

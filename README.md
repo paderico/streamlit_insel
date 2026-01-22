@@ -12,6 +12,6 @@ Run `docker compose watch`
 
 ### uv
 
-With Python+uv installed, run `uv run streamlit run insel_web_app.py`.
+With Python+uv installed, run `uv run streamlit run pv_invest.py`.
 
 (You might need to modify the absolute paths inside templates files).
