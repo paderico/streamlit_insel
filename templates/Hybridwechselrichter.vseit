@@ -1392,13 +1392,24 @@ P 33
 B 34 ATT
    53.1
 P 34
+<<<<<<< HEAD
     1000            % Attenuation factor a
+=======
+    1               % Number of values to be read per record
+    1               % Number of records to be skipped on the first call
+    '/app/data/AC_PVProduktion_2024.csv' % File name
+    '*'             % Fortran format
+>>>>>>> 77f70f0d443699971d84777c9ea015157c2f108d
 
 B 35 READ
 P 35
     1               % Number of values to be read per record
     1               % Number of records to be skipped on the first call
+<<<<<<< HEAD
     '\app\data\AC_PVProduktion_2024.csv' % File name
+=======
+    '/app/data/AC_Verbrauch_2024Delay.csv' % File name
+>>>>>>> 77f70f0d443699971d84777c9ea015157c2f108d
     '*'             % Fortran format
 
 B 36 READ
