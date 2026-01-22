@@ -819,7 +819,6 @@
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>1</string></attr>
 <attr name="bp2"><string>1</string></attr>
-<attr name="sp1"><locator xlink:href="file:\app\data\AC_PVProduktion_2024.csv"/></attr>
 <attr name="sp1"><locator xlink:href="file:/app/data/AC_PVProduktion_2024.csv"/></attr>
 <attr name="sp2"><string>*</string></attr>
 </entity>
@@ -832,7 +831,6 @@
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>1</string></attr>
 <attr name="bp2"><string>1</string></attr>
-<attr name="sp1"><locator xlink:href="file:\app\data\AC_Verbrauch_2024Delay.csv"/></attr>
 <attr name="sp1"><locator xlink:href="file:/app/data/AC_Verbrauch_2024Delay.csv"/></attr>
 <attr name="sp2"><string>*</string></attr>
 </entity>
