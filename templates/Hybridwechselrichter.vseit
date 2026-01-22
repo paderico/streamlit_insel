@@ -264,11 +264,11 @@
 <ref name="portOf"><to>_172</to></ref>
 </entity>
 <entity id="_65" class="eu.insel.block.PortIn">
-<ref name="linkFrom"><to>_72</to></ref>
+<ref name="linkFrom"><to>_71</to></ref>
 <ref name="portOf"><to>_137</to></ref>
 </entity>
 <entity id="_66" class="eu.insel.block.PortIn">
-<ref name="linkFrom"><to>_71</to></ref>
+<ref name="linkFrom"><to>_72</to></ref>
 <ref name="portOf"><to>_137</to></ref>
 </entity>
 <entity id="_67" class="eu.insel.block.Makro">
@@ -296,11 +296,11 @@
 <ref name="portOf"><to>_134</to></ref>
 </entity>
 <entity id="_71" class="eu.insel.block.PortOut">
-<ref name="linkTo"><to>_10</to><to>_37</to><to>_66</to></ref>
+<ref name="linkTo"><to>_10</to><to>_37</to><to>_65</to></ref>
 <ref name="portOf"><to>_138</to></ref>
 </entity>
 <entity id="_72" class="eu.insel.block.PortOut">
-<ref name="linkTo"><to>_7</to><to>_28</to><to>_65</to></ref>
+<ref name="linkTo"><to>_7</to><to>_28</to><to>_66</to></ref>
 <ref name="portOf"><to>_138</to></ref>
 </entity>
 <entity id="_73" class="eu.insel.block.PortOut">
@@ -681,10 +681,11 @@
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
 <entity id="_137" class="eu.insel.block.DIFF">
-<ref name="inPorts"><to>_65</to><to>_66</to></ref>
+<ref name="inPorts"><to>_66</to><to>_65</to></ref>
 <ref name="outPorts"><to>_116</to></ref>
 <attr name="blockName"><string>DIFF</string></attr>
 <attr name="blockFunction"><string>fb0084</string></attr>
+<attr name="userBlockNumber"><int>22</int></attr>
 <attr name="inputPortsCount"><int>2</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -693,7 +694,7 @@
 <ref name="outPorts"><to>_72</to><to>_73</to><to>_74</to><to>_71</to><to>_92</to></ref>
 <attr name="blockName"><string>CUM</string></attr>
 <attr name="blockFunction"><string>fb0021</string></attr>
-<attr name="userBlockNumber"><int>22</int></attr>
+<attr name="userBlockNumber"><int>23</int></attr>
 <attr name="inputPortsCount"><int>5</int></attr>
 <attr name="outputPortsCount"><int>5</int></attr>
 </entity>
@@ -702,7 +703,7 @@
 <ref name="outPorts"><to>_82</to><to>_83</to></ref>
 <attr name="blockName"><string>CUM</string></attr>
 <attr name="blockFunction"><string>fb0021</string></attr>
-<attr name="userBlockNumber"><int>23</int></attr>
+<attr name="userBlockNumber"><int>24</int></attr>
 <attr name="inputPortsCount"><int>2</int></attr>
 <attr name="outputPortsCount"><int>2</int></attr>
 </entity>
@@ -712,7 +713,7 @@
 <ref name="outPorts"><to>_95</to></ref>
 <attr name="blockName"><string>MIN</string></attr>
 <attr name="blockFunction"><string>fb0002</string></attr>
-<attr name="userBlockNumber"><int>24</int></attr>
+<attr name="userBlockNumber"><int>25</int></attr>
 <attr name="inputPortsCount"><int>2</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -722,7 +723,7 @@
 <ref name="outPorts"><to>_106</to></ref>
 <attr name="blockName"><string>MIN</string></attr>
 <attr name="blockFunction"><string>fb0002</string></attr>
-<attr name="userBlockNumber"><int>25</int></attr>
+<attr name="userBlockNumber"><int>26</int></attr>
 <attr name="inputPortsCount"><int>2</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -731,7 +732,7 @@
 <ref name="outPorts"><to>_88</to></ref>
 <attr name="blockName"><string>ATT</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>26</int></attr>
+<attr name="userBlockNumber"><int>27</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>1000</string></attr>
@@ -741,7 +742,7 @@
 <ref name="outPorts"><to>_89</to></ref>
 <attr name="blockName"><string>ATT</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>27</int></attr>
+<attr name="userBlockNumber"><int>28</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>1000</string></attr>
@@ -751,7 +752,7 @@
 <ref name="outPorts"><to>_90</to></ref>
 <attr name="blockName"><string>ATT</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>28</int></attr>
+<attr name="userBlockNumber"><int>29</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>5.532</string></attr>
@@ -761,7 +762,7 @@
 <ref name="outPorts"><to>_91</to></ref>
 <attr name="blockName"><string>ATT</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>29</int></attr>
+<attr name="userBlockNumber"><int>30</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>13.6</string></attr>
@@ -772,7 +773,7 @@
 <ref name="outPorts"><to>_96</to></ref>
 <attr name="blockName"><string>ATT</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>30</int></attr>
+<attr name="userBlockNumber"><int>31</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>1000</string></attr>
@@ -783,7 +784,7 @@
 <ref name="outPorts"><to>_114</to></ref>
 <attr name="blockName"><string>ATT</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>31</int></attr>
+<attr name="userBlockNumber"><int>32</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>1000</string></attr>
@@ -794,7 +795,7 @@
 <ref name="outPorts"><to>_110</to></ref>
 <attr name="blockName"><string>ATT</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>32</int></attr>
+<attr name="userBlockNumber"><int>33</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>Wirkungsgrad_Batterie_DC</string></attr>
@@ -805,7 +806,7 @@
 <ref name="outPorts"><to>_104</to></ref>
 <attr name="blockName"><string>ATT</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>33</int></attr>
+<attr name="userBlockNumber"><int>34</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>1000</string></attr>
@@ -814,7 +815,7 @@
 <ref name="outPorts"><to>_68</to></ref>
 <attr name="blockName"><string>READ</string></attr>
 <attr name="blockFunction"><string>fb0018</string></attr>
-<attr name="userBlockNumber"><int>34</int></attr>
+<attr name="userBlockNumber"><int>35</int></attr>
 <attr name="inputPortsCount"><int>0</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>1</string></attr>
@@ -826,7 +827,7 @@
 <ref name="outPorts"><to>_81</to></ref>
 <attr name="blockName"><string>READ</string></attr>
 <attr name="blockFunction"><string>fb0018</string></attr>
-<attr name="userBlockNumber"><int>35</int></attr>
+<attr name="userBlockNumber"><int>36</int></attr>
 <attr name="inputPortsCount"><int>0</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>1</string></attr>
@@ -839,7 +840,7 @@
 <ref name="outPorts"><to>_109</to></ref>
 <attr name="blockName"><string>CONST</string></attr>
 <attr name="blockFunction"><string>fb0001</string></attr>
-<attr name="userBlockNumber"><int>36</int></attr>
+<attr name="userBlockNumber"><int>37</int></attr>
 <attr name="inputPortsCount"><int>0</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>0</string></attr>
@@ -849,7 +850,7 @@
 <ref name="outPorts"><to>_97</to></ref>
 <attr name="blockName"><string>CONST</string></attr>
 <attr name="blockFunction"><string>fb0001</string></attr>
-<attr name="userBlockNumber"><int>37</int></attr>
+<attr name="userBlockNumber"><int>38</int></attr>
 <attr name="inputPortsCount"><int>0</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>0</string></attr>
@@ -859,7 +860,7 @@
 <ref name="outPorts"><to>_94</to></ref>
 <attr name="blockName"><string>CONST</string></attr>
 <attr name="blockFunction"><string>fb0001</string></attr>
-<attr name="userBlockNumber"><int>38</int></attr>
+<attr name="userBlockNumber"><int>39</int></attr>
 <attr name="inputPortsCount"><int>0</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>0</string></attr>
@@ -869,7 +870,7 @@
 <ref name="outPorts"><to>_69</to></ref>
 <attr name="blockName"><string>GAIN</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>39</int></attr>
+<attr name="userBlockNumber"><int>40</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>kWp_PV</string></attr>
@@ -879,7 +880,7 @@
 <ref name="outPorts"><to>_80</to></ref>
 <attr name="blockName"><string>GAIN</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>40</int></attr>
+<attr name="userBlockNumber"><int>41</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>Verbrauch_MWh</string></attr>
@@ -890,7 +891,7 @@
 <ref name="outPorts"><to>_113</to></ref>
 <attr name="blockName"><string>GAIN</string></attr>
 <attr name="blockFunction"><string>fb0006</string></attr>
-<attr name="userBlockNumber"><int>41</int></attr>
+<attr name="userBlockNumber"><int>42</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>Wirkungsgrad_Batterie_DC</string></attr>
@@ -901,7 +902,7 @@
 <ref name="outPorts"><to>_102</to></ref>
 <attr name="blockName"><string>MAX</string></attr>
 <attr name="blockFunction"><string>fb0002</string></attr>
-<attr name="userBlockNumber"><int>42</int></attr>
+<attr name="userBlockNumber"><int>43</int></attr>
 <attr name="inputPortsCount"><int>2</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -911,7 +912,7 @@
 <ref name="outPorts"><to>_100</to></ref>
 <attr name="blockName"><string>MAX</string></attr>
 <attr name="blockFunction"><string>fb0002</string></attr>
-<attr name="userBlockNumber"><int>43</int></attr>
+<attr name="userBlockNumber"><int>44</int></attr>
 <attr name="inputPortsCount"><int>2</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -921,7 +922,7 @@
 <ref name="outPorts"><to>_108</to></ref>
 <attr name="blockName"><string>MAX</string></attr>
 <attr name="blockFunction"><string>fb0002</string></attr>
-<attr name="userBlockNumber"><int>44</int></attr>
+<attr name="userBlockNumber"><int>45</int></attr>
 <attr name="inputPortsCount"><int>2</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -929,10 +930,10 @@
 <ref name="inPorts"><to>_14</to><to>_15</to><to>_16</to></ref>
 <attr name="blockName"><string>PLOTPMC</string></attr>
 <attr name="blockFunction"><string>fb0044</string></attr>
-<attr name="userBlockNumber"><int>45</int></attr>
+<attr name="userBlockNumber"><int>46</int></attr>
 <attr name="inputPortsCount"><int>3</int></attr>
 <attr name="outputPortsCount"><int>0</int></attr>
-<attr name="title"><string>Strombezug des Gebäudes</string></attr>
+<attr name="title"><string>Bezug</string></attr>
 <attr name="terminal"><enum>PNG</enum></attr>
 <attr name="width"><string>1152</string></attr>
 <attr name="height"><string>768</string></attr>
@@ -942,7 +943,8 @@
 <attr name="yLabel"><string>Uhrzeit des Tages</string></attr>
 <attr name="yMin"><string>0</string></attr>
 <attr name="yMax"><string>23</string></attr>
-<attr name="sp1"><string>/app/templates/Hybridwechselrichter.plot</string></attr>
+<attr name="yTics"><string>3</string></attr>
+<attr name="sp1"><string>C:\Users\Patrick Werz\Desktop\Python\templates\Hybridwechselrichter.plot</string></attr>
 <attr name="mYtics"><string>2</string></attr>
 <attr name="yFormat"><string>%g:00</string></attr>
 <attr name="customGnuplotCommands"><string>## Uncommented commands will be executed before plot.
@@ -953,7 +955,7 @@
 ### Plot data as image, without interpolation between values:
  plot data_file using 1:2:3 with image notitle</string></attr>
 <attr name="colorPaletteName"><enum>Spectral</enum></attr>
-<attr name="reversePalette"><bool>false</bool></attr>
+<attr name="reversePalette"><bool>true</bool></attr>
 <attr name="zLabel"><string>Netzbezug</string></attr>
 <attr name="zUnit"><string>Wh / 5min</string></attr>
 <attr name="zMin"><string>0</string></attr>
@@ -967,7 +969,7 @@
 <ref name="outPorts"><to>_99</to></ref>
 <attr name="blockName"><string>SUM</string></attr>
 <attr name="blockFunction"><string>fb0002</string></attr>
-<attr name="userBlockNumber"><int>46</int></attr>
+<attr name="userBlockNumber"><int>47</int></attr>
 <attr name="inputPortsCount"><int>2</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -976,7 +978,7 @@
 <ref name="outPorts"><to>_77</to></ref>
 <attr name="blockName"><string>DOY</string></attr>
 <attr name="blockFunction"><string>fb0023</string></attr>
-<attr name="userBlockNumber"><int>47</int></attr>
+<attr name="userBlockNumber"><int>48</int></attr>
 <attr name="inputPortsCount"><int>3</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -985,7 +987,7 @@
 <ref name="outPorts"><to>_84</to></ref>
 <attr name="blockName"><string>DIV</string></attr>
 <attr name="blockFunction"><string>fb0004</string></attr>
-<attr name="userBlockNumber"><int>48</int></attr>
+<attr name="userBlockNumber"><int>49</int></attr>
 <attr name="inputPortsCount"><int>2</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -994,7 +996,7 @@
 <ref name="outPorts"><to>_86</to></ref>
 <attr name="blockName"><string>DIV</string></attr>
 <attr name="blockFunction"><string>fb0004</string></attr>
-<attr name="userBlockNumber"><int>49</int></attr>
+<attr name="userBlockNumber"><int>50</int></attr>
 <attr name="inputPortsCount"><int>2</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -1048,7 +1050,7 @@ Stromnetz
 <ref name="inPorts"><to>_36</to><to>_37</to><to>_38</to><to>_39</to></ref>
 <attr name="blockName"><string>SCREEN</string></attr>
 <attr name="blockFunction"><string>fb0014</string></attr>
-<attr name="userBlockNumber"><int>50</int></attr>
+<attr name="userBlockNumber"><int>51</int></attr>
 <attr name="inputPortsCount"><int>4</int></attr>
 <attr name="outputPortsCount"><int>0</int></attr>
 <attr name="sp1"><string>*</string></attr>
@@ -1059,7 +1061,7 @@ Stromnetz
 <ref name="outPorts"><to>_98</to></ref>
 <attr name="blockName"><string>DELAY</string></attr>
 <attr name="blockFunction"><string>fb0015</string></attr>
-<attr name="userBlockNumber"><int>51</int></attr>
+<attr name="userBlockNumber"><int>52</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 <attr name="bp1"><string>0</string></attr>
@@ -1070,86 +1072,86 @@ Stromnetz
 <ref name="outPorts"><to>_115</to></ref>
 <attr name="blockName"><string>CHS</string></attr>
 <attr name="blockFunction"><string>fb0005</string></attr>
-<attr name="userBlockNumber"><int>52</int></attr>
+<attr name="userBlockNumber"><int>53</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
 
 <!-- One or more layouts of the VSEit Network above -->
 <layout name="Default" show-name="false" routing-policy="de.vseit.network.routing.RoutingPolicyOrthogonal" background-color="none" auto-display-new="true">
-<geom node="_116"><layer>1</layer><x>1520</x><y>631</y><w>2</w><h>6</h></geom>
-<geom node="_66"><layer>1</layer><x>1482</x><y>640</y><w>2</w><h>6</h></geom>
-<geom node="_65"><layer>1</layer><x>1482</x><y>622</y><w>2</w><h>6</h></geom>
-<geom node="_137"><layer>1</layer><x>1485</x><y>621</y><w>34</w><h>34</h></geom>
-<geom node="_115"><layer>-1</layer><x>944</x><y>487</y><w>2</w><h>6</h></geom>
-<geom node="_64"><layer>-1</layer><x>906</x><y>487</y><w>2</w><h>6</h></geom>
-<geom node="_172"><layer>-1</layer><x>909</x><y>477</y><w>34</w><h>34</h></geom>
-<geom node="_168"><layer>-1</layer><x>388</x><y>519</y><w>159</w><h>46</h></geom>
-<geom node="_166"><layer>-1</layer><x>826</x><y>698</y><w>121</w><h>46</h></geom>
-<geom node="_167"><layer>-1</layer><x>873</x><y>514</y><w>113</w><h>35</h></geom>
-<geom node="_169"><layer>-1</layer><x>857</x><y>361</y><w>100</w><h>40</h></geom>
-<geom node="_103"><layer>1</layer><x>260</x><y>352</y><w>2</w><h>6</h></geom>
-<geom node="_112"><layer>1</layer><x>260</x><y>343</y><w>2</w><h>6</h></geom>
-<geom node="_104"><layer>-1</layer><x>1043</x><y>487</y><w>2</w><h>6</h></geom>
-<geom node="_51"><layer>-1</layer><x>1005</x><y>487</y><w>2</w><h>6</h></geom>
-<geom node="_149"><layer>-1</layer><x>1008</x><y>477</y><w>34</w><h>34</h></geom>
-<geom node="_109"><layer>-1</layer><x>818</x><y>460</y><w>2</w><h>6</h></geom>
-<geom node="_152"><layer>-1</layer><x>783</x><y>459</y><w>34</w><h>16</h></geom>
-<geom node="_95"><layer>-1</layer><x>881</x><y>487</y><w>2</w><h>6</h></geom>
-<geom node="_54"><layer>-1</layer><x>843</x><y>496</y><w>2</w><h>6</h></geom>
-<geom node="_56"><layer>-1</layer><x>843</x><y>478</y><w>2</w><h>6</h></geom>
-<geom node="_140"><layer>-1</layer><x>846</x><y>477</y><w>34</w><h>34</h></geom>
-<geom node="_100"><layer>-1</layer><x>881</x><y>424</y><w>2</w><h>6</h></geom>
-<geom node="_45"><layer>-1</layer><x>843</x><y>433</y><w>2</w><h>6</h></geom>
-<geom node="_43"><layer>-1</layer><x>843</x><y>415</y><w>2</w><h>6</h></geom>
-<geom node="_159"><layer>-1</layer><x>846</x><y>414</y><w>34</w><h>34</h></geom>
-<geom node="_114"><layer>-1</layer><x>1043</x><y>415</y><w>2</w><h>6</h></geom>
-<geom node="_50"><layer>-1</layer><x>1005</x><y>415</y><w>2</w><h>6</h></geom>
-<geom node="_147"><layer>-1</layer><x>1008</x><y>405</y><w>34</w><h>34</h></geom>
-<geom node="_111"><layer>1</layer><x>260</x><y>334</y><w>2</w><h>6</h></geom>
-<geom node="_96"><layer>-1</layer><x>1124</x><y>649</y><w>2</w><h>6</h></geom>
-<geom node="_61"><layer>-1</layer><x>1086</x><y>649</y><w>2</w><h>6</h></geom>
-<geom node="_146"><layer>-1</layer><x>1089</x><y>639</y><w>34</w><h>34</h></geom>
-<geom node="_97"><layer>-1</layer><x>899</x><y>667</y><w>2</w><h>6</h></geom>
-<geom node="_153"><layer>-1</layer><x>864</x><y>666</y><w>34</w><h>16</h></geom>
-<geom node="_108"><layer>-1</layer><x>962</x><y>658</y><w>2</w><h>6</h></geom>
-<geom node="_55"><layer>-1</layer><x>924</x><y>667</y><w>2</w><h>6</h></geom>
-<geom node="_59"><layer>-1</layer><x>924</x><y>649</y><w>2</w><h>6</h></geom>
-<geom node="_160"><layer>-1</layer><x>927</x><y>648</y><w>34</w><h>34</h></geom>
-<geom node="_101"><layer>-1</layer><x>881</x><y>613</y><w>2</w><h>6</h></geom>
-<geom node="_46"><layer>-1</layer><x>843</x><y>622</y><w>2</w><h>6</h></geom>
-<geom node="_57"><layer>-1</layer><x>843</x><y>604</y><w>2</w><h>6</h></geom>
-<geom node="_136"><layer>-1</layer><x>846</x><y>603</y><w>34</w><h>34</h></geom>
-<geom node="_98"><layer>-1</layer><x>800</x><y>667</y><w>2</w><h>6</h></geom>
-<geom node="_63"><layer>-1</layer><x>762</x><y>667</y><w>2</w><h>6</h></geom>
-<geom node="_171"><layer>-1</layer><x>765</x><y>657</y><w>34</w><h>34</h></geom>
-<geom node="_110"><layer>-1</layer><x>485</x><y>595</y><w>2</w><h>6</h></geom>
-<geom node="_49"><layer>-1</layer><x>447</x><y>595</y><w>2</w><h>6</h></geom>
-<geom node="_148"><layer>-1</layer><x>450</x><y>585</y><w>34</w><h>34</h></geom>
-<geom node="_113"><layer>-1</layer><x>485</x><y>478</y><w>2</w><h>6</h></geom>
-<geom node="_58"><layer>-1</layer><x>447</x><y>478</y><w>2</w><h>6</h></geom>
-<geom node="_157"><layer>-1</layer><x>450</x><y>468</y><w>34</w><h>34</h></geom>
-<geom node="_42"><layer>1</layer><x>222</x><y>334</y><w>2</w><h>6</h></geom>
-<geom node="_105"><layer>1</layer><x>260</x><y>325</y><w>2</w><h>6</h></geom>
-<geom node="_99"><layer>-1</layer><x>647</x><y>532</y><w>2</w><h>6</h></geom>
-<geom node="_60"><layer>-1</layer><x>609</x><y>541</y><w>2</w><h>6</h></geom>
-<geom node="_47"><layer>-1</layer><x>609</x><y>523</y><w>2</w><h>6</h></geom>
-<geom node="_162"><layer>-1</layer><x>612</x><y>522</y><w>34</w><h>34</h></geom>
-<geom node="_94"><layer>-1</layer><x>305</x><y>532</y><w>2</w><h>6</h></geom>
-<geom node="_154"><layer>-1</layer><x>270</x><y>531</y><w>34</w><h>16</h></geom>
-<geom node="_106"><layer>-1</layer><x>386</x><y>577</y><w>2</w><h>6</h></geom>
-<geom node="_48"><layer>-1</layer><x>348</x><y>586</y><w>2</w><h>6</h></geom>
-<geom node="_44"><layer>-1</layer><x>348</x><y>568</y><w>2</w><h>6</h></geom>
-<geom node="_141"><layer>-1</layer><x>351</x><y>567</y><w>34</w><h>34</h></geom>
-<geom node="_102"><layer>-1</layer><x>386</x><y>496</y><w>2</w><h>6</h></geom>
-<geom node="_52"><layer>-1</layer><x>348</x><y>505</y><w>2</w><h>6</h></geom>
-<geom node="_62"><layer>-1</layer><x>348</x><y>487</y><w>2</w><h>6</h></geom>
-<geom node="_158"><layer>-1</layer><x>351</x><y>486</y><w>34</w><h>34</h></geom>
-<geom node="_93"><layer>-1</layer><x>719</x><y>541</y><w>2</w><h>6</h></geom>
-<geom node="_107"><layer>-1</layer><x>719</x><y>523</y><w>2</w><h>6</h></geom>
-<geom node="_53"><layer>-1</layer><x>681</x><y>532</y><w>2</w><h>6</h></geom>
-<geom node="_117"><layer>-1</layer><x>684</x><y>522</y><w>34</w><h>34</h></geom>
-<geom node="_67" special-type-id="0"><layer>1</layer><x>225</x><y>324</y><w>1015</w><h>475</h>
+<geom node="_116"><layer>1</layer><x>1511</x><y>649</y><w>2</w><h>6</h></geom>
+<geom node="_65"><layer>1</layer><x>1473</x><y>658</y><w>2</w><h>6</h></geom>
+<geom node="_66"><layer>1</layer><x>1473</x><y>640</y><w>2</w><h>6</h></geom>
+<geom node="_137"><layer>1</layer><x>1476</x><y>639</y><w>34</w><h>34</h></geom>
+<geom node="_115"><layer>1</layer><x>953</x><y>487</y><w>2</w><h>6</h></geom>
+<geom node="_64"><layer>1</layer><x>915</x><y>487</y><w>2</w><h>6</h></geom>
+<geom node="_172"><layer>1</layer><x>918</x><y>477</y><w>34</w><h>34</h></geom>
+<geom node="_168"><layer>1</layer><x>388</x><y>519</y><w>159</w><h>46</h></geom>
+<geom node="_166"><layer>1</layer><x>826</x><y>698</y><w>121</w><h>46</h></geom>
+<geom node="_167"><layer>1</layer><x>873</x><y>514</y><w>113</w><h>35</h></geom>
+<geom node="_169"><layer>1</layer><x>857</x><y>361</y><w>100</w><h>40</h></geom>
+<geom node="_103"><layer>1</layer><x>1240</x><y>730</y><w>2</w><h>6</h></geom>
+<geom node="_112"><layer>1</layer><x>1240</x><y>613</y><w>2</w><h>6</h></geom>
+<geom node="_104"><layer>1</layer><x>1043</x><y>487</y><w>2</w><h>6</h></geom>
+<geom node="_51"><layer>1</layer><x>1005</x><y>487</y><w>2</w><h>6</h></geom>
+<geom node="_149"><layer>1</layer><x>1008</x><y>477</y><w>34</w><h>34</h></geom>
+<geom node="_109"><layer>1</layer><x>818</x><y>460</y><w>2</w><h>6</h></geom>
+<geom node="_152"><layer>1</layer><x>783</x><y>459</y><w>34</w><h>16</h></geom>
+<geom node="_95"><layer>1</layer><x>881</x><y>487</y><w>2</w><h>6</h></geom>
+<geom node="_54"><layer>1</layer><x>843</x><y>496</y><w>2</w><h>6</h></geom>
+<geom node="_56"><layer>1</layer><x>843</x><y>478</y><w>2</w><h>6</h></geom>
+<geom node="_140"><layer>1</layer><x>846</x><y>477</y><w>34</w><h>34</h></geom>
+<geom node="_100"><layer>1</layer><x>881</x><y>424</y><w>2</w><h>6</h></geom>
+<geom node="_45"><layer>1</layer><x>843</x><y>433</y><w>2</w><h>6</h></geom>
+<geom node="_43"><layer>1</layer><x>843</x><y>415</y><w>2</w><h>6</h></geom>
+<geom node="_159"><layer>1</layer><x>846</x><y>414</y><w>34</w><h>34</h></geom>
+<geom node="_114"><layer>1</layer><x>1043</x><y>415</y><w>2</w><h>6</h></geom>
+<geom node="_50"><layer>1</layer><x>1005</x><y>415</y><w>2</w><h>6</h></geom>
+<geom node="_147"><layer>1</layer><x>1008</x><y>405</y><w>34</w><h>34</h></geom>
+<geom node="_111"><layer>1</layer><x>1240</x><y>496</y><w>2</w><h>6</h></geom>
+<geom node="_96"><layer>1</layer><x>1124</x><y>649</y><w>2</w><h>6</h></geom>
+<geom node="_61"><layer>1</layer><x>1086</x><y>649</y><w>2</w><h>6</h></geom>
+<geom node="_146"><layer>1</layer><x>1089</x><y>639</y><w>34</w><h>34</h></geom>
+<geom node="_97"><layer>1</layer><x>899</x><y>667</y><w>2</w><h>6</h></geom>
+<geom node="_153"><layer>1</layer><x>864</x><y>666</y><w>34</w><h>16</h></geom>
+<geom node="_108"><layer>1</layer><x>962</x><y>658</y><w>2</w><h>6</h></geom>
+<geom node="_55"><layer>1</layer><x>924</x><y>667</y><w>2</w><h>6</h></geom>
+<geom node="_59"><layer>1</layer><x>924</x><y>649</y><w>2</w><h>6</h></geom>
+<geom node="_160"><layer>1</layer><x>927</x><y>648</y><w>34</w><h>34</h></geom>
+<geom node="_101"><layer>1</layer><x>881</x><y>613</y><w>2</w><h>6</h></geom>
+<geom node="_46"><layer>1</layer><x>843</x><y>622</y><w>2</w><h>6</h></geom>
+<geom node="_57"><layer>1</layer><x>843</x><y>604</y><w>2</w><h>6</h></geom>
+<geom node="_136"><layer>1</layer><x>846</x><y>603</y><w>34</w><h>34</h></geom>
+<geom node="_98"><layer>1</layer><x>800</x><y>667</y><w>2</w><h>6</h></geom>
+<geom node="_63"><layer>1</layer><x>762</x><y>667</y><w>2</w><h>6</h></geom>
+<geom node="_171"><layer>1</layer><x>765</x><y>657</y><w>34</w><h>34</h></geom>
+<geom node="_110"><layer>1</layer><x>485</x><y>595</y><w>2</w><h>6</h></geom>
+<geom node="_49"><layer>1</layer><x>447</x><y>595</y><w>2</w><h>6</h></geom>
+<geom node="_148"><layer>1</layer><x>450</x><y>585</y><w>34</w><h>34</h></geom>
+<geom node="_113"><layer>1</layer><x>485</x><y>478</y><w>2</w><h>6</h></geom>
+<geom node="_58"><layer>1</layer><x>447</x><y>478</y><w>2</w><h>6</h></geom>
+<geom node="_157"><layer>1</layer><x>450</x><y>468</y><w>34</w><h>34</h></geom>
+<geom node="_42"><layer>1</layer><x>222</x><y>559</y><w>2</w><h>6</h></geom>
+<geom node="_105"><layer>1</layer><x>1240</x><y>379</y><w>2</w><h>6</h></geom>
+<geom node="_99"><layer>1</layer><x>647</x><y>532</y><w>2</w><h>6</h></geom>
+<geom node="_60"><layer>1</layer><x>609</x><y>541</y><w>2</w><h>6</h></geom>
+<geom node="_47"><layer>1</layer><x>609</x><y>523</y><w>2</w><h>6</h></geom>
+<geom node="_162"><layer>1</layer><x>612</x><y>522</y><w>34</w><h>34</h></geom>
+<geom node="_94"><layer>1</layer><x>305</x><y>532</y><w>2</w><h>6</h></geom>
+<geom node="_154"><layer>1</layer><x>270</x><y>531</y><w>34</w><h>16</h></geom>
+<geom node="_106"><layer>1</layer><x>386</x><y>577</y><w>2</w><h>6</h></geom>
+<geom node="_48"><layer>1</layer><x>348</x><y>586</y><w>2</w><h>6</h></geom>
+<geom node="_44"><layer>1</layer><x>348</x><y>568</y><w>2</w><h>6</h></geom>
+<geom node="_141"><layer>1</layer><x>351</x><y>567</y><w>34</w><h>34</h></geom>
+<geom node="_102"><layer>1</layer><x>386</x><y>496</y><w>2</w><h>6</h></geom>
+<geom node="_52"><layer>1</layer><x>348</x><y>505</y><w>2</w><h>6</h></geom>
+<geom node="_62"><layer>1</layer><x>348</x><y>487</y><w>2</w><h>6</h></geom>
+<geom node="_158"><layer>1</layer><x>351</x><y>486</y><w>34</w><h>34</h></geom>
+<geom node="_93"><layer>1</layer><x>719</x><y>541</y><w>2</w><h>6</h></geom>
+<geom node="_107"><layer>1</layer><x>719</x><y>523</y><w>2</w><h>6</h></geom>
+<geom node="_53"><layer>1</layer><x>681</x><y>532</y><w>2</w><h>6</h></geom>
+<geom node="_117"><layer>1</layer><x>684</x><y>522</y><w>34</w><h>34</h></geom>
+<geom node="_67"><layer>1</layer><x>225</x><y>324</y><w>1015</w><h>475</h>
 <special type-id="0"><dx>0</dx><dy>0</dy><w>34</w><h>36</h></special>
 </geom>
 <geom node="_41"><layer>1</layer><x>1491</x><y>433</y><w>2</w><h>6</h></geom>
@@ -1392,31 +1394,20 @@ P 33
 B 34 ATT
    53.1
 P 34
-<<<<<<< HEAD
     1000            % Attenuation factor a
-=======
-    1               % Number of values to be read per record
-    1               % Number of records to be skipped on the first call
-    '/app/data/AC_PVProduktion_2024.csv' % File name
-    '*'             % Fortran format
->>>>>>> 77f70f0d443699971d84777c9ea015157c2f108d
 
 B 35 READ
 P 35
     1               % Number of values to be read per record
     1               % Number of records to be skipped on the first call
-<<<<<<< HEAD
-    '\app\data\AC_PVProduktion_2024.csv' % File name
-=======
-    '/app/data/AC_Verbrauch_2024Delay.csv' % File name
->>>>>>> 77f70f0d443699971d84777c9ea015157c2f108d
+    '/app/data/AC_PVProduktion_2024.csv' % File name
     '*'             % Fortran format
 
 B 36 READ
 P 36
     1               % Number of values to be read per record
     1               % Number of records to be skipped on the first call
-    '\app\data\AC_Verbrauch_2024Delay.csv' % File name
+    '/app/data/AC_Verbrauch_2024Delay.csv' % File name
     '*'             % Fortran format
 
 B 37 CONST
