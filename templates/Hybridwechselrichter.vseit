@@ -934,7 +934,7 @@
 <attr name="yLabel"><string>Uhrzeit des Tages</string></attr>
 <attr name="yMin"><string>0</string></attr>
 <attr name="yMax"><string>23</string></attr>
-<attr name="sp1"><string>app/templates/Hybridwechselrichter.plot</string></attr>
+<attr name="sp1"><string>/app/templates/Hybridwechselrichter.plot</string></attr>
 <attr name="mYtics"><string>2</string></attr>
 <attr name="yFormat"><string>%g:00</string></attr>
 <attr name="customGnuplotCommands"><string>## Uncommented commands will be executed before plot.
@@ -1071,6 +1071,7 @@ Stromnetz
 <ref name="outPorts"><to>_116</to></ref>
 <attr name="blockName"><string>CHS</string></attr>
 <attr name="blockFunction"><string>fb0005</string></attr>
+<attr name="userBlockNumber"><int>53</int></attr>
 <attr name="inputPortsCount"><int>1</int></attr>
 <attr name="outputPortsCount"><int>1</int></attr>
 </entity>
@@ -1448,7 +1449,7 @@ B 45 PLOTPMC
    18.4
    53.1
 P 45
-    'app/templates/Hybridwechselrichter.plot' % Gnuplot file name
+    '/app/templates/Hybridwechselrichter.plot' % Gnuplot file name
 
 B 46 SUM
    22.1

@@ -233,7 +233,7 @@ with left:
                     st.dataframe(df.style.format({"Kapitalwert (€)": "{:,.0f}"}))
 
     time.sleep(1.0)
-    st.image("templates/Hybridwechselrichter.png")
+    st.image("/tmp/Hybridwechselrichter.png")
 
 
 with right:
@@ -412,4 +412,4 @@ with right:
                     st.dataframe(df.style.format({"Kapitalwert (€)": "{:,.0f}"}))
 
     time.sleep(1.0)
-    st.image("templates/Hybridwechselrichter2025.png")
+    st.image("/tmp/Hybridwechselrichter2025.png")

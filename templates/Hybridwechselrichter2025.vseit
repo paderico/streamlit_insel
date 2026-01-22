@@ -943,7 +943,7 @@
 <attr name="yLabel"><string>Uhrzeit des Tages</string></attr>
 <attr name="yMin"><string>0</string></attr>
 <attr name="yMax"><string>23</string></attr>
-<attr name="sp1"><string>app\templates\Hybridwechselrichter2025.plot</string></attr>
+<attr name="sp1"><string>/app/templates/Hybridwechselrichter2025.plot</string></attr>
 <attr name="mYtics"><string>2</string></attr>
 <attr name="yFormat"><string>%g:00</string></attr>
 <attr name="customGnuplotCommands"><string>## Uncommented commands will be executed before plot.
@@ -1453,7 +1453,7 @@ B 46 PLOTPMC
    18.4
    53.1
 P 46
-    'app\templates\Hybridwechselrichter2025.plot' % Gnuplot file name
+    '/app/templates/Hybridwechselrichter2025.plot' % Gnuplot file name
 
 B 47 SUM
    42.1
