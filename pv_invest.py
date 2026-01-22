@@ -90,7 +90,12 @@ with left:
     st.write(f"🔋 Aktuell gewählte Batteriekapazität: {batkap} kWh")
     
     # --- Insel-Berechnung ---
-    einspeisung, netzbezug, eigenverbrauchsquote, autarkiequote = insel.template(
+    (
+        einspeisung, 
+        netzbezug, 
+        eigenverbrauchsquote, 
+        autarkiequote
+    ) = insel.template(
         "Hybridwechselrichter.vseit",
         Verbrauch_MWh=verbrauch,
         kWp_PV=pvleistung,
