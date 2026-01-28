@@ -1,6 +1,5 @@
 services:
   web:
-    container_name: insel-streamlit
     # Build the image from the Dockerfile in the current directory
     build: .
 
