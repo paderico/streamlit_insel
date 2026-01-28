@@ -25,11 +25,11 @@ services:
         # Rebuild the image if dependencies change by checking uv.lock
         - action: rebuild
           path: ./uv.lock
-
-    networks:
-      - proxy-network
-
-networks:
-  proxy-network:
-    name: reverse_proxy
-    external: true
+#
+#    networks:
+#      - proxy-network
+#
+#networks:
+#  proxy-network:
+#    name: reverse_proxy
+#    external: true
